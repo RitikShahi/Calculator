@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <div>
+            <input type="text" name="display" id="field_data">
+        </div>
+        <div class="row1">
+        <button class="btn1" onclick="updateDisplay('AC')">AC</button>
+        <button class="btn1" onclick="updateDisplay('DE')">DE</button>
+        <button class="btn1" onclick="updateDisplay('.')">.</button>
+        <button class="btn1" onclick="updateDisplay('/')">/</button>
+        </div>
+        <div class="row2">
+        <button class="btn1" onclick="updateDisplay('7')">7</button>
+        <button class="btn1" onclick="updateDisplay('8')">8</button>
+        <button class="btn1" onclick="updateDisplay('9')">9</button>
+        <button class="btn1" onclick="updateDisplay('*')">*</button>
+        </div>
+        <div class="row3">
+        <button class="btn1" onclick="updateDisplay('4')">4</button>
+        <button class="btn1" onclick="updateDisplay('5')">5</button>
+        <button class="btn1" onclick="updateDisplay('6')">6</button>
+        <button class="btn1" onclick="updateDisplay('-')">-</button>
+        </div>
+        <div class="row4">
+        <button class="btn1" onclick="updateDisplay('1')">1</button>
+        <button class="btn1" onclick="updateDisplay('2')">2</button>
+        <button class="btn1" onclick="updateDisplay('3')">3</button>
+        <button class="btn1" onclick="updateDisplay('+')">+</button>        
+        </div>
+        <div class="row5">
+        <button class="btn1" onclick="updateDisplay('00')">00</button>
+        <button class="btn1" onclick="updateDisplay('0')">0</button>
+        <button class="btn1 btn2" onclick="updateDisplay('=')">=</button>            
+        </div>
+    </div>
+    <footer>
+        Made with Love ❤️
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
